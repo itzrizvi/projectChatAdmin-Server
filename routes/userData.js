@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const { User } = require("../model/user");
-const Joi = require("joi");
-const bcrypt = require("bcrypt");
+
+// Logged in user data router
 
 router.get("/:userId", async (req, res) => {
   try {
