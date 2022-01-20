@@ -2,7 +2,6 @@ const router = require("express").Router();
 const { User } = require("../model/user");
 
 // Logged in user data router
-
 router.get("/:userId", async (req, res) => {
   try {
     const user = await User.findOne({ _id: req.params.userId });
