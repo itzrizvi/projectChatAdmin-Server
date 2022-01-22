@@ -21,6 +21,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^4.2.2",
     "mongoose": "^6.1.6",
+    "node-modules": "^1.0.1",
     "socket.io": "^4.4.0"
   },
   "devDependencies": {
