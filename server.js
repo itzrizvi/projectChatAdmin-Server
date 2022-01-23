@@ -88,7 +88,7 @@ app.get("/", (req, res) => {
 const users = {};
 
 io.on("connection", (socket) => {
-  console.log("Some one is Connected and Socket id" + socket.id);
+  console.log("Some one is Connected and Socket ID " + socket.id);
 
   socket.on("disconnect", () => {
     console.log(`${socket.id} is Disconnected`);
